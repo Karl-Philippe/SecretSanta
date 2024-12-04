@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message du Père Noël et de ses lutins</title>
+    <style>
+        body {
+            font-family: 'Papyrus', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('data:image/png;base64,{mosaic_base64}');
+            background-repeat: repeat;
+            background-size: 300px 300px;
+            color: #333;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            max-width: 650px;
+            text-align: center;
+        }
+        h1 {
+            color: #d22b2b;
+            font-size: 1.7em;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin: 15px 0;
+        }
+        strong {
+            color: #097b24;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        b {
+            color: #097b24;
+            font-size: 1.1em;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .emoji {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h1>Ho ho ho ! {greeting}, 🎅</h1>
+        <p>L'heure est bientôt venue de célébrer Noël ensemble en famille ! 🎄✨</p>
+        <p>Cette année, mes lutins m'ont confié que tu as été choisi pour offrir un cadeau à :</p>
+        <p><strong>✨ {assigned_to} ✨</strong></p>
+        <p>Souviens-toi, le budget à respecter est de <b>{max_budget}$</b>.</p>
+        <p>Choisis ton cadeau avec soin, fais preuve de créativité, et surtout, amuse-toi en préparant cette belle surprise ! 🎁</p>
+        <p>Joyeux Noël ! 🎄</p>
+        <footer>- Le Père Noël 🎅</footer>
+    </div>
+</body>
+</html>
