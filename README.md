@@ -104,7 +104,6 @@ project-root/
 ├── data/
 │   └── mosaic.jpeg               # Optional mosaic image for HTML files
 ├── results/                      # Directory where generated instruction files are stored
-├── requirements.txt              # Python dependencies for the project
 ├── README.md                     # Project documentation
 └── main.py                       # Main script
 ```
