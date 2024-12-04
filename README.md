@@ -96,15 +96,14 @@ Erreur: Impossible de générer une attribution valide après plusieurs tentativ
 ```bash
 project-root/
 ├── src/
-│   ├── secret_santa.py           # Main script.
 │   ├── models.py                 # Defines the Person class and related methods.
 │   ├── utils.py                  # Helper functions (e.g., clear_directory, encode_image).
-│   └── santa.py                  # Logic for creating and checking Secret Santa assignments.
+│   └── secret_santa.py           # Logic for creating and checking Secret Santa assignments.
 ├── templates/
 │   └── instruction_template.html # Template file for personalized instructions.
 ├── data/
 │   └── mosaic.jpeg               # Optional mosaic image for HTML files.
-├── results/                       # Directory where generated instruction files are stored.
+├── results/                      # Directory where generated instruction files are stored.
 ├── requirements.txt              # Python dependencies for the project.
 └── README.md                     # Project documentation.
 ```
