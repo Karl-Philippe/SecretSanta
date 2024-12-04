@@ -24,20 +24,13 @@ This project is a Python-based Secret Santa gift exchange organizer. It assigns 
 
 - Python 3.7 or later
 - A template HTML file (`instruction_template.html`) for personalized instructions.
-- An optional mosaic image (`mosaic.jpeg`) to be embedded in the HTML files.
+- An optional mosaic image (`mosaic.jpeg`) to be embedded in the HTML files (or any other seamless pattern).
 
 ### Installation
-
-1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/secret-santa.git
    cd secret-santa
-   ```
-2. Install required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ---
@@ -74,7 +67,7 @@ participants = [
 3. Execute the script:
 
    ```bash
-   python secret_santa.py
+   python main.py
    ```
 
 4. The HTML files will be saved in the specified directory.
@@ -100,10 +93,21 @@ Erreur: Impossible de générer une attribution valide après plusieurs tentativ
 
 ## File Structure
 
-- `secret_santa.py`: Main script.
-- `instruction_template.html`: Template file for personalized instructions.
-- `mosaic_improved.jpeg`: Optional mosaic image for HTML files.
-- `README.md`: Project documentation.
+```bash
+project-root/
+├── src/
+│   ├── secret_santa.py           # Main script.
+│   ├── models.py                 # Defines the Person class and related methods.
+│   ├── utils.py                  # Helper functions (e.g., clear_directory, encode_image).
+│   └── santa.py                  # Logic for creating and checking Secret Santa assignments.
+├── templates/
+│   └── instruction_template.html # Template file for personalized instructions.
+├── data/
+│   └── mosaic.jpeg               # Optional mosaic image for HTML files.
+├── results/                       # Directory where generated instruction files are stored.
+├── requirements.txt              # Python dependencies for the project.
+└── README.md                     # Project documentation.
+```
 
 ---
 
