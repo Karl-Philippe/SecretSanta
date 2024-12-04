@@ -45,7 +45,7 @@ Add participants in the `participants` list as `Person` objects:
 participants = [
     Person("John", "Family A", "male"),
     Person("Jane", "Family A", "female"),
-    Person("Jim", "Family A", "male"),
+    Person("Jim", "Family B", "male"),
     ...
 ]
 ```
