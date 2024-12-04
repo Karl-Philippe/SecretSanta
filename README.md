@@ -92,7 +92,7 @@ participants = [
 
 If the script cannot generate valid assignments after multiple attempts, it will raise an exception:
 
-```python
+```bash
 Erreur: Impossible de générer une attribution valide après plusieurs tentatives.
 ```
 
