@@ -1,0 +1,8 @@
+[
+    {"name": "Alex", "family": "Family A", "gender": "male"},
+    {"name": "Jamie", "family": "Family A", "gender": "female"},
+    {"name": "Taylor", "family": "Family B", "gender": "male"},
+    {"name": "Morgan", "family": "Family B", "gender": "female"},
+    {"name": "Jordan", "family": "Family C", "gender": "male"},
+    {"name": "Charlie", "family": "Family C", "gender": "male"}
+]
