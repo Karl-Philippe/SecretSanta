@@ -39,20 +39,20 @@ This project is a Python-based Secret Santa gift exchange organizer. It assigns 
 
 ### Define Participants
 
-Add participants in the `participants` list as `Person` objects:
+Participants are now loaded from the `participants.json` file:
 
-```python
-participants = [
-    Person("John", "Family A", "male"),
-    Person("Jane", "Family A", "female"),
-    Person("Jim", "Family B", "male"),
-    ...
+`participants.json` example:
+```json
+[
+    {"name": "John", "family": "Family A", "gender": "male"},
+    {"name": "Jane", "family": "Family A", "gender": "female"},
+    {"name": "Jim", "family": "Family B", "gender": "male"}
 ]
 ```
 
 ### Run the Program
 
-1. Set the maximum budget for gifts:
+1. Set the maximum budget for gifts in the script:
 
    ```python
    max_budget = 40  # Change as needed
@@ -104,6 +104,7 @@ project-root/
 ├── data/
 │   └── mosaic.jpeg               # Optional mosaic image for HTML files
 ├── results/                      # Directory where generated instruction files are stored
+├── participants.json             # JSON file with participant data
 ├── README.md                     # Project documentation
 └── main.py                       # Main script
 ```
