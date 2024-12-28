@@ -163,4 +163,4 @@ cython_debug/
 
 # Results
 results
-participants_*
+participants.json
